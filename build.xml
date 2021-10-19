@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+  <project name="Test avec Ant" default="packaging" basedir=".">
+  
+  <!-- =================================================================== -->
+  <!-- Génération de l'archive jar                           -->
+  <!-- =================================================================== -->
+  <target name="packaging">
+    <jar jarfile="test.jar" basedir="src" />
+  </target> 
+</project>
